@@ -15,14 +15,7 @@ Projekt implementuje API do zarządzania użytkownikami, stworzone w technologii
 
 Aby uruchomić aplikację lokalnie, wykonaj poniższe kroki:
 
-### 1. Skopiuj repozytorium
-
-```bash
-git clone https://github.com/TwojeRepozytorium.git
-cd TwojeRepozytorium
-```
-
-### 2. Zainstaluj zależności
+### 1. Zainstaluj zależności
 
 W katalogu głównym projektu, uruchom polecenie, aby zainstalować wszystkie wymagane zależności:
 
@@ -30,11 +23,11 @@ W katalogu głównym projektu, uruchom polecenie, aby zainstalować wszystkie wy
 npm install
 ```
 
-### 3. Konfiguracja bazy danych
+### 2. Konfiguracja bazy danych
 
 Baza danych **SQLite** jest już zintegrowana w projekcie. Podczas uruchamiania aplikacji, struktura bazy danych zostanie automatycznie utworzona w pliku `database.db`.
 
-### 4. Uruchomienie serwera
+### 3. Uruchomienie serwera
 
 Aby uruchomić serwer, w katalogu głównym projektu uruchom poniższe polecenie:
 
