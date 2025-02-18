@@ -17,6 +17,7 @@ function displayValidationErrors(errors) {
 }
 
 function validateForm() {
+  // Pobranie wartości pól formularza
   const name = document.getElementById("name").value.trim();
   const email = document.getElementById("email").value.trim();
   const age = document.getElementById("age").value.trim();
@@ -24,6 +25,7 @@ function validateForm() {
 
   let errors = [];
 
+  // Walidacja pola Imię
   if (!name) {
     errors.push({ path: "name", message: "Imię jest wymagane!" });
   } else if (name.length < 3) {
@@ -33,16 +35,19 @@ function validateForm() {
     });
   }
 
+  // Walidacja pola Email
   if (!email) {
     errors.push({ path: "email", message: "Email jest wymagany!" });
   } else if (!email.includes("@")) {
     errors.push({ path: "email", message: "Podaj poprawny adres e-mail!" });
   }
 
+  // Walidacja pola Wiek
   if (!age || isNaN(age) || age < 1 || age > 120) {
     errors.push({ path: "age", message: "Podaj poprawny wiek!" });
   }
 
+  // Walidacja pola Login
   if (!username) {
     errors.push({ path: "username", message: "Login jest wymagany!" });
   }
@@ -53,6 +58,7 @@ function validateForm() {
   return errors.length === 0;
 }
 
+// Obsługa przesyłania formularza
 document
   .getElementById("userForm")
   .addEventListener("submit", async function (event) {
@@ -102,6 +108,7 @@ document
     }
   });
 
+// Funkcja obsługująca błędy podczas zapytań do API
 async function fetchWithErrorHandling(url, options = {}) {
   try {
     const response = await fetch(url, options);
@@ -124,6 +131,7 @@ async function fetchWithErrorHandling(url, options = {}) {
   }
 }
 
+// Funkcja pobierająca i wyświetlająca użytkowników w tabeli
 async function loadUsers() {
   const users = await fetchWithErrorHandling("http://localhost:3000/api/users");
   if (!users) return;
@@ -147,6 +155,7 @@ async function loadUsers() {
   });
 }
 
+// Funkcja do edycji użytkownika
 async function editUser(id) {
   const users = await fetchWithErrorHandling("http://localhost:3000/api/users");
   if (!users) return;
@@ -161,6 +170,7 @@ async function editUser(id) {
   }
 }
 
+// Funkcja do usuwania użytkownika
 async function deleteUser(id) {
   if (!confirm("Czy na pewno chcesz usunąć użytkownika?")) return;
 
@@ -171,4 +181,5 @@ async function deleteUser(id) {
   loadUsers();
 }
 
+// Wczytanie użytkowników po załadowaniu strony
 window.onload = loadUsers;
