@@ -1,22 +1,56 @@
+function displayValidationErrors(errors) {
+  // Resetowanie wcześniejszych komunikatów o błędach
+  const errorElements = document.querySelectorAll(".error-message");
+  errorElements.forEach((el) => el.remove());
+
+  // Dodawanie nowych komunikatów o błędach przy odpowiednich polach
+  errors.forEach((error) => {
+    const field = document.getElementById(error.path);
+    if (field) {
+      const errorElement = document.createElement("div");
+      errorElement.classList.add("error-message");
+      errorElement.style.color = "red";
+      errorElement.textContent = error.message;
+      field.insertAdjacentElement("afterend", errorElement);
+    }
+  });
+}
+
 function validateForm() {
   const name = document.getElementById("name").value.trim();
   const email = document.getElementById("email").value.trim();
   const age = document.getElementById("age").value.trim();
   const username = document.getElementById("username").value.trim();
 
-  if (!name || !email || !age || !username) {
-    alert("Wszystkie pola są wymagane!");
-    return false;
+  let errors = [];
+
+  if (!name) {
+    errors.push({ path: "name", message: "Imię jest wymagane!" });
+  } else if (name.length < 3) {
+    errors.push({
+      path: "name",
+      message: "Imię musi mieć co najmniej 3 znaki!",
+    });
   }
-  if (!email.includes("@")) {
-    alert("Podaj poprawny adres e-mail!");
-    return false;
+
+  if (!email) {
+    errors.push({ path: "email", message: "Email jest wymagany!" });
+  } else if (!email.includes("@")) {
+    errors.push({ path: "email", message: "Podaj poprawny adres e-mail!" });
   }
-  if (isNaN(age) || age < 1 || age > 120) {
-    alert("Podaj poprawny wiek!");
-    return false;
+
+  if (!age || isNaN(age) || age < 1 || age > 120) {
+    errors.push({ path: "age", message: "Podaj poprawny wiek!" });
   }
-  return true;
+
+  if (!username) {
+    errors.push({ path: "username", message: "Login jest wymagany!" });
+  }
+
+  // Wyświetlanie błędów walidacji
+  displayValidationErrors(errors);
+
+  return errors.length === 0;
 }
 
 document
@@ -34,37 +68,59 @@ document
       username: document.getElementById("username").value,
     };
 
-    if (userId) {
-      // Aktualizacja użytkownika
-      await fetch(`http://localhost:3000/api/users/${userId}`, {
-        method: "PUT",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(user),
-      });
-    } else {
-      // Dodanie nowego użytkownika
-      await fetch("http://localhost:3000/api/users", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(user),
-      });
+    let response;
+    try {
+      response = await fetch(
+        userId
+          ? `http://localhost:3000/api/users/${userId}`
+          : "http://localhost:3000/api/users",
+        {
+          method: userId ? "PUT" : "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(user),
+        }
+      );
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        if (data.errors) {
+          displayValidationErrors(data.errors);
+        } else {
+          alert(`Błąd: ${response.statusText}`);
+        }
+        return;
+      }
+
+      // Resetowanie formularza po udanej operacji
+      document.getElementById("userForm").reset();
+      document.getElementById("userId").value = "";
+      loadUsers();
+    } catch (error) {
+      alert(`Wystąpił błąd sieci: ${error.message}`);
+      console.error(error);
     }
-
-    // Resetowanie formularza
-    document.getElementById("userForm").reset();
-    document.getElementById("userId").value = "";
-
-    loadUsers();
   });
 
 async function fetchWithErrorHandling(url, options = {}) {
   try {
     const response = await fetch(url, options);
-    if (!response.ok) throw new Error(`Błąd: ${response.statusText}`);
-    return await response.json();
+    const data = await response.json();
+
+    if (!response.ok) {
+      if (data.errors) {
+        displayValidationErrors(data.errors);
+      } else {
+        alert(`Błąd: ${response.statusText}`);
+      }
+      return null;
+    }
+
+    return data;
   } catch (error) {
     alert(`Wystąpił błąd: ${error.message}`);
     console.error(error);
+    return null;
   }
 }
 
@@ -92,10 +148,10 @@ async function loadUsers() {
 }
 
 async function editUser(id) {
-  const response = await fetch(`http://localhost:3000/api/users`);
-  const users = await response.json();
-  const user = users.find((u) => u.id === id);
+  const users = await fetchWithErrorHandling("http://localhost:3000/api/users");
+  if (!users) return;
 
+  const user = users.find((u) => u.id === id);
   if (user) {
     document.getElementById("userId").value = user.id;
     document.getElementById("name").value = user.name;

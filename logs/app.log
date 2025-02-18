@@ -1,0 +1,232 @@
+2025-02-18T00:16:44.105Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:16:48.517Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:17:13.390Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:17:43.363Z [INFO]: Dodano użytkownika: asfasfxffas
+2025-02-18T00:17:43.369Z [INFO]: Pobrano 5 użytkowników
+2025-02-18T00:17:43.547Z [INFO]: Pobrano 5 użytkowników
+2025-02-18T00:18:02.933Z [INFO]: Pobrano 5 użytkowników
+2025-02-18T00:18:12.599Z [INFO]: Pobrano 5 użytkowników
+2025-02-18T00:18:42.849Z [WARN]: Błąd walidacji danych użytkownika: "name" length must be at least 3 characters long
+2025-02-18T00:18:42.855Z [INFO]: Pobrano 5 użytkowników
+2025-02-18T00:18:52.640Z [INFO]: Pobrano 5 użytkowników
+2025-02-18T00:19:15.921Z [INFO]: Pobrano 5 użytkowników
+2025-02-18T00:21:07.339Z [INFO]: Pobrano 5 użytkowników
+2025-02-18T00:22:40.744Z [INFO]: Pobrano 5 użytkowników
+2025-02-18T00:26:25.775Z [INFO]: Pobrano 5 użytkowników
+2025-02-18T00:26:42.503Z [INFO]: Dodano użytkownika: asfasfx
+2025-02-18T00:26:42.508Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T00:26:42.700Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T00:26:46.546Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T00:26:51.837Z [INFO]: Zaktualizowano użytkownika o ID: 12
+2025-02-18T00:26:51.842Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T00:26:52.037Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T00:27:05.063Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T00:27:08.464Z [INFO]: Zaktualizowano użytkownika o ID: 11
+2025-02-18T00:27:08.469Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T00:27:08.650Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T00:27:13.992Z [INFO]: Usunięto użytkownika o ID: 11
+2025-02-18T00:27:13.995Z [INFO]: Pobrano 5 użytkowników
+2025-02-18T00:27:14.181Z [INFO]: Pobrano 5 użytkowników
+2025-02-18T00:27:37.032Z [INFO]: Pobrano 5 użytkowników
+2025-02-18T00:27:39.411Z [INFO]: Pobrano 5 użytkowników
+2025-02-18T00:27:40.547Z [INFO]: Pobrano 5 użytkowników
+2025-02-18T00:27:45.119Z [INFO]: Usunięto użytkownika o ID: 6
+2025-02-18T00:27:45.123Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:27:45.315Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:27:57.592Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:27:58.279Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:28:00.588Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:28:03.523Z [INFO]: Usunięto użytkownika o ID: 7
+2025-02-18T00:28:03.527Z [INFO]: Pobrano 3 użytkowników
+2025-02-18T00:28:03.716Z [INFO]: Pobrano 3 użytkowników
+2025-02-18T00:28:09.620Z [INFO]: Pobrano 3 użytkowników
+2025-02-18T00:29:18.767Z [INFO]: Pobrano 3 użytkowników
+2025-02-18T00:29:25.238Z [INFO]: Pobrano 3 użytkowników
+2025-02-18T00:29:36.005Z [WARN]: Błąd walidacji danych użytkownika: "username" must only contain alpha-numeric characters
+2025-02-18T00:29:36.010Z [INFO]: Pobrano 3 użytkowników
+2025-02-18T00:29:44.532Z [INFO]: Pobrano 3 użytkowników
+2025-02-18T00:29:45.217Z [INFO]: Pobrano 3 użytkowników
+2025-02-18T00:29:45.567Z [INFO]: Pobrano 3 użytkowników
+2025-02-18T00:29:55.683Z [WARN]: Błąd walidacji danych użytkownika: "username" must only contain alpha-numeric characters
+2025-02-18T00:29:55.688Z [INFO]: Pobrano 3 użytkowników
+2025-02-18T00:30:05.458Z [INFO]: Pobrano 3 użytkowników
+2025-02-18T00:30:05.485Z [INFO]: Pobrano 3 użytkowników
+2025-02-18T00:30:13.675Z [INFO]: Pobrano 3 użytkowników
+2025-02-18T00:30:13.696Z [INFO]: Pobrano 3 użytkowników
+2025-02-18T00:30:17.768Z [INFO]: Pobrano 3 użytkowników
+2025-02-18T00:30:17.802Z [INFO]: Pobrano 3 użytkowników
+2025-02-18T00:30:24.925Z [INFO]: Pobrano 3 użytkowników
+2025-02-18T00:30:24.945Z [INFO]: Pobrano 3 użytkowników
+2025-02-18T00:33:05.310Z [INFO]: Pobrano 3 użytkowników
+2025-02-18T00:33:05.340Z [INFO]: Pobrano 3 użytkowników
+2025-02-18T00:33:20.656Z [WARN]: Błąd walidacji danych użytkownika: "email" must be a valid email
+2025-02-18T00:33:20.660Z [INFO]: Pobrano 3 użytkowników
+2025-02-18T00:33:38.016Z [INFO]: Pobrano 3 użytkowników
+2025-02-18T00:33:47.483Z [INFO]: Pobrano 3 użytkowników
+2025-02-18T00:34:35.715Z [INFO]: Pobrano 3 użytkowników
+2025-02-18T00:34:35.741Z [INFO]: Pobrano 3 użytkowników
+2025-02-18T00:34:39.754Z [INFO]: Pobrano 3 użytkowników
+2025-02-18T00:34:54.822Z [WARN]: Błąd walidacji danych użytkownika: Niepoprawny adres email
+2025-02-18T00:34:54.828Z [INFO]: Pobrano 3 użytkowników
+2025-02-18T00:37:36.635Z [INFO]: Pobrano 3 użytkowników
+2025-02-18T00:37:36.662Z [INFO]: Pobrano 3 użytkowników
+2025-02-18T00:39:38.667Z [INFO]: Pobrano 3 użytkowników
+2025-02-18T00:39:38.849Z [INFO]: Pobrano 3 użytkowników
+2025-02-18T00:39:52.191Z [INFO]: Dodano użytkownika: fkjh
+2025-02-18T00:39:52.196Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:39:52.370Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:39:52.401Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:40:01.497Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:40:01.511Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:41:18.322Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:41:18.349Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:41:34.024Z [WARN]: Błąd walidacji danych użytkownika: Login powinien zawierać tylko litery i cyfry
+2025-02-18T00:41:34.028Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:41:45.327Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:41:45.365Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:41:50.134Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:41:50.745Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:41:59.544Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:41:59.572Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:42:20.025Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:42:20.062Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:43:44.689Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:43:57.613Z [ERROR]: Błąd podczas dodawania użytkownika: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.email
+2025-02-18T00:43:57.618Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:44:21.025Z [WARN]: Błąd walidacji danych użytkownika: Imię musi mieć co najmniej 3 znaki
+2025-02-18T00:44:21.030Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:49:03.886Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:49:07.030Z [INFO]: Zaktualizowano użytkownika o ID: 5
+2025-02-18T00:49:07.035Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:49:07.227Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:49:32.333Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:56:14.361Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:57:13.552Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:59:12.079Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:59:15.834Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T00:59:25.483Z [INFO]: Pobrano 4 użytkowników
+2025-02-18T01:00:46.870Z [ERROR]: Błąd podczas dodawania użytkownika: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.email
+2025-02-18T01:00:55.569Z [ERROR]: Błąd podczas dodawania użytkownika: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.email
+2025-02-18T01:01:11.987Z [INFO]: Dodano użytkownika: Dam
+2025-02-18T01:01:11.992Z [INFO]: Pobrano 5 użytkowników
+2025-02-18T01:01:12.181Z [INFO]: Pobrano 5 użytkowników
+2025-02-18T01:02:09.288Z [INFO]: Pobrano 5 użytkowników
+2025-02-18T01:06:59.641Z [INFO]: Pobrano 5 użytkowników
+2025-02-18T01:07:33.659Z [WARN]: Błąd walidacji danych użytkownika: Imię musi mieć co najmniej 3 znaki
+2025-02-18T01:07:42.561Z [ERROR]: Błąd podczas dodawania użytkownika: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.email
+2025-02-18T01:08:29.444Z [WARN]: Błąd walidacji danych użytkownika: Imię musi mieć co najmniej 3 znaki
+2025-02-18T01:08:43.208Z [WARN]: Błąd walidacji danych użytkownika: Imię musi mieć co najmniej 3 znaki
+2025-02-18T01:18:18.974Z [ERROR]: Błąd podczas dodawania użytkownika: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.email
+2025-02-18T01:19:45.445Z [INFO]: Pobrano 5 użytkowników
+2025-02-18T01:20:34.595Z [INFO]: Pobrano 5 użytkowników
+2025-02-18T01:20:41.171Z [INFO]: Pobrano 5 użytkowników
+2025-02-18T01:20:54.178Z [WARN]: Błąd walidacji danych użytkownika: Imię musi mieć co najmniej 3 znaki
+2025-02-18T01:21:00.511Z [ERROR]: Błąd podczas dodawania użytkownika: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.email
+2025-02-18T01:22:26.751Z [INFO]: Pobrano 5 użytkowników
+2025-02-18T01:23:13.730Z [INFO]: Pobrano 5 użytkowników
+2025-02-18T01:23:16.294Z [INFO]: Pobrano 5 użytkowników
+2025-02-18T01:23:29.814Z [ERROR]: Błąd podczas dodawania użytkownika: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.email
+2025-02-18T01:24:22.693Z [INFO]: Dodano użytkownika: asdasd
+2025-02-18T01:24:22.697Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T01:24:22.876Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T01:25:20.717Z [WARN]: Błąd walidacji danych użytkownika: Niepoprawny adres email
+2025-02-18T01:25:25.022Z [WARN]: Błąd walidacji danych użytkownika: Niepoprawny adres email
+2025-02-18T01:25:29.217Z [WARN]: Błąd walidacji danych użytkownika: Niepoprawny adres email
+2025-02-18T01:25:46.058Z [WARN]: Błąd walidacji danych użytkownika: Niepoprawny adres email
+2025-02-18T01:25:56.383Z [INFO]: Dodano użytkownika: asas
+2025-02-18T01:25:56.387Z [INFO]: Pobrano 7 użytkowników
+2025-02-18T01:25:56.569Z [INFO]: Pobrano 7 użytkowników
+2025-02-18T01:28:38.482Z [INFO]: Pobrano 7 użytkowników
+2025-02-18T01:29:05.562Z [INFO]: Pobrano 7 użytkowników
+2025-02-18T01:29:18.835Z [INFO]: Pobrano 7 użytkowników
+2025-02-18T01:29:22.391Z [INFO]: Pobrano 7 użytkowników
+2025-02-18T01:29:34.675Z [INFO]: Pobrano 7 użytkowników
+2025-02-18T01:30:43.273Z [INFO]: Pobrano 7 użytkowników
+2025-02-18T01:31:15.251Z [WARN]: Błąd walidacji danych użytkownika: Login powinien zawierać tylko litery i cyfry
+2025-02-18T01:31:20.637Z [ERROR]: Błąd podczas dodawania użytkownika: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.email
+2025-02-18T01:33:16.032Z [INFO]: Usunięto użytkownika o ID: 16
+2025-02-18T01:33:16.037Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T01:33:16.231Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T01:33:19.710Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T01:33:25.171Z [INFO]: Zaktualizowano użytkownika o ID: 15
+2025-02-18T01:33:25.177Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T01:33:25.362Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T01:39:20.150Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T01:40:19.562Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T01:40:30.380Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T01:40:32.685Z [INFO]: Zaktualizowano użytkownika o ID: 5
+2025-02-18T01:40:32.690Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T01:40:32.864Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T01:42:03.256Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T01:42:03.979Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T01:43:18.811Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T01:44:49.946Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T01:45:39.313Z [ERROR]: Błąd podczas dodawania użytkownika: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.email
+2025-02-18T01:45:41.668Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T01:45:57.560Z [ERROR]: Błąd podczas dodawania użytkownika: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2025-02-18T01:46:05.575Z [WARN]: Błąd walidacji danych użytkownika: Login powinien zawierać tylko litery i cyfry
+2025-02-18T01:46:16.800Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T01:46:17.334Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T01:46:20.046Z [INFO]: Zaktualizowano użytkownika o ID: 5
+2025-02-18T01:46:20.050Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T01:46:20.243Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T01:49:43.009Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T01:49:54.383Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T01:50:10.604Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T01:50:13.552Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T01:50:16.075Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T01:50:19.611Z [INFO]: Zaktualizowano użytkownika o ID: 5
+2025-02-18T01:50:19.616Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T01:50:19.815Z [INFO]: Pobrano 6 użytkowników
+2025-02-18T01:51:41.593Z [INFO]: Dodano użytkownika: jankowal
+2025-02-18T01:51:41.780Z [INFO]: Pobrano 7 użytkowników
+2025-02-18T01:51:53.732Z [INFO]: Dodano użytkownika: annanowak
+2025-02-18T01:51:53.924Z [INFO]: Pobrano 8 użytkowników
+2025-02-18T01:51:59.419Z [INFO]: Dodano użytkownika: marekw
+2025-02-18T01:51:59.622Z [INFO]: Pobrano 9 użytkowników
+2025-02-18T01:52:47.614Z [INFO]: Dodano użytkownika: kamilp
+2025-02-18T01:52:47.812Z [INFO]: Pobrano 10 użytkowników
+2025-02-18T01:52:52.676Z [INFO]: Dodano użytkownika: ewazielinska
+2025-02-18T01:52:52.885Z [INFO]: Pobrano 11 użytkowników
+2025-02-18T01:52:57.856Z [INFO]: Dodano użytkownika: piotrad
+2025-02-18T01:52:58.085Z [INFO]: Pobrano 12 użytkowników
+2025-02-18T01:53:06.860Z [INFO]: Dodano użytkownika: katarzynanowak
+2025-02-18T01:53:07.055Z [INFO]: Pobrano 13 użytkowników
+2025-02-18T01:53:11.172Z [INFO]: Pobrano 13 użytkowników
+2025-02-18T01:53:18.302Z [INFO]: Usunięto użytkownika o ID: 15
+2025-02-18T01:53:18.308Z [INFO]: Pobrano 12 użytkowników
+2025-02-18T01:53:18.480Z [INFO]: Pobrano 12 użytkowników
+2025-02-18T01:53:20.118Z [INFO]: Usunięto użytkownika o ID: 5
+2025-02-18T01:53:20.122Z [INFO]: Pobrano 11 użytkowników
+2025-02-18T01:53:20.300Z [INFO]: Pobrano 11 użytkowników
+2025-02-18T01:53:21.213Z [INFO]: Usunięto użytkownika o ID: 10
+2025-02-18T01:53:21.217Z [INFO]: Pobrano 10 użytkowników
+2025-02-18T01:53:21.396Z [INFO]: Pobrano 10 użytkowników
+2025-02-18T01:53:22.299Z [INFO]: Usunięto użytkownika o ID: 12
+2025-02-18T01:53:22.303Z [INFO]: Pobrano 9 użytkowników
+2025-02-18T01:53:22.477Z [INFO]: Pobrano 9 użytkowników
+2025-02-18T01:53:23.101Z [INFO]: Usunięto użytkownika o ID: 13
+2025-02-18T01:53:23.105Z [INFO]: Pobrano 8 użytkowników
+2025-02-18T01:53:23.290Z [INFO]: Pobrano 8 użytkowników
+2025-02-18T01:53:24.169Z [INFO]: Usunięto użytkownika o ID: 14
+2025-02-18T01:53:24.173Z [INFO]: Pobrano 7 użytkowników
+2025-02-18T01:53:24.356Z [INFO]: Pobrano 7 użytkowników
+2025-02-18T01:54:10.405Z [ERROR]: Błąd podczas dodawania użytkownika: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.email
+2025-02-18T01:54:14.523Z [WARN]: Błąd walidacji danych użytkownika: Login powinien zawierać tylko litery i cyfry
+2025-02-18T01:54:32.075Z [INFO]: Dodano użytkownika: martawojcik
+2025-02-18T01:54:32.270Z [INFO]: Pobrano 8 użytkowników
+2025-02-18T01:54:40.058Z [INFO]: Dodano użytkownika: robertkacz
+2025-02-18T01:54:40.231Z [INFO]: Pobrano 9 użytkowników
+2025-02-18T01:54:45.547Z [INFO]: Dodano użytkownika: agnieszkakw
+2025-02-18T01:54:45.744Z [INFO]: Pobrano 10 użytkowników
+2025-02-18T01:55:16.667Z [INFO]: Pobrano 10 użytkowników
+2025-02-18T01:55:18.161Z [INFO]: Pobrano 10 użytkowników
+2025-02-18T01:55:20.971Z [INFO]: Zaktualizowano użytkownika o ID: 17
+2025-02-18T01:55:20.975Z [INFO]: Pobrano 10 użytkowników
+2025-02-18T01:55:21.158Z [INFO]: Pobrano 10 użytkowników
+2025-02-18T01:55:43.131Z [INFO]: Pobrano 10 użytkowników
+2025-02-18T01:57:43.965Z [INFO]: Pobrano 10 użytkowników
+2025-02-18T01:57:48.718Z [INFO]: Pobrano 10 użytkowników
+2025-02-18T01:57:52.467Z [INFO]: Zaktualizowano użytkownika o ID: 17
+2025-02-18T01:57:52.472Z [INFO]: Pobrano 10 użytkowników
+2025-02-18T01:57:52.660Z [INFO]: Pobrano 10 użytkowników

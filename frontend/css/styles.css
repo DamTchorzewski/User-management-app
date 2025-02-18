@@ -2,35 +2,149 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     padding: 20px;
+    flex-direction: column;
+    align-items: center; /* Wyśrodkowanie w poziomie */
+    justify-content: center; /* Wyśrodkowanie w pionie */
+    height: 100vh;
+    margin: 0;
 }
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 form {
     background: white;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     max-width: 400px;
-    margin-bottom: 20px;
-}
-input, button {
     width: 100%;
-    margin-bottom: 10px;
-    padding: 8px;
 }
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input {
+    width: calc(100% - 16px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
 button {
+    width: 100%;
+    padding: 10px;
     background-color: #007bff;
     color: white;
     border: none;
+    border-radius: 4px;
     cursor: pointer;
+    font-size: 1em;
+    margin-top: 15px;
 }
+
 button:hover {
     background-color: #0056b3;
 }
+
+#userForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxForms{
+    width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Stylizacja tabeli */
 table {
     width: 100%;
     background: white;
     border-collapse: collapse;
+    margin-top: 20px;
 }
+
 th, td {
-    padding: 10px;
+    padding: 12px;
     border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+tbody tr:hover {
+    background-color: #f0f0f0;
+}
+
+/* Responsywność */
+@media (max-width: 600px) {
+    form {
+        max-width: 100%;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
+
+/* Przyciski akcji */
+.edit-btn, .delete-btn {
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9em;
+    border-radius: 4px;
+}
+
+.edit-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #218838;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
 }
