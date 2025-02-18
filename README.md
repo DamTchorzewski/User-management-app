@@ -37,6 +37,15 @@ node backend/server.js
 
 Domyślnie, aplikacja będzie nasłuchiwać na porcie **3000**. Możesz teraz rozpocząć testowanie API.
 
+### 4. Uruchomienie pliku index.html w przeglądarce
+
+Wystarczy uruchomić plik index.html w swojej przeglądarce.
+
+Aby to zrobić, przejdź do folderu zawierającego plik index.html i otwórz go w przeglądarce:
+
+Kliknij dwukrotnie na index.html, aby otworzyć go w domyślnej przeglądarce.
+Alternatywnie, jeśli używasz edytora kodu, możesz otworzyć plik index.html i użyć opcji "Open with Live Server" (w przypadku edytorów takich jak Visual Studio Code).
+
 ## API Endpoints
 
 ### 1. **POST /users** - Dodawanie użytkownika
